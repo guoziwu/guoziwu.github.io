@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.into{
+    background-image: url("../images/timg.jpg");
+    background-size: cover;
+    height: 937px;
+}
+.title{
+    /*border: 1px solid red;*/
+    width: 25%;
+    height: 15%;
+    padding-top: 10%;
+    padding-left: 15%;
+}
+p{
+    font-size: 40px;
+    color:darkgreen;
+}
+.but{
+    width: 6%;
+    height: 3%;
+    margin-top: 8%;
+    margin-left: 21%;
+    background-color: red;
+    color: cadetblue;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid green;
+}

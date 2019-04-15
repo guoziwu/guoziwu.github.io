@@ -2,19 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <style>
-        p{
-            color: red;
-            font-size: 25px;
-        }
-    </style>
+    <title>小5个人网站</title>
+    <link rel="stylesheet" href="mycss/index.css">
 </head>
 <body>
-<div>
-    <p>
-        这是我的网页  加了文字之后
-    </p>
+<div class="into">
+    <div class="title">
+        <p>欢迎来到小5个人网站</p>
+    </div>
+    <div class="but">点击进入</div>
+    <script src="jquery-3.3.1.js"></script>
+    <script>
+        $(".but").click(function () {
+            window.open("homePage.html");
+        })
+    </script>
 </div>
 </body>
 </html>
