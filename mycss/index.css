@@ -6,7 +6,7 @@
 .into {
     background-image: url("../images/timg.jpg");
     background-size: cover;
-    height: 937px;
+    height: 936px;
 }
 
 .title {
@@ -35,7 +35,7 @@ p {
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
-    border: 1px solid green;
+    /*border: 1px solid green;*/
     cursor: pointer;
     border-radius: 3px;
 }

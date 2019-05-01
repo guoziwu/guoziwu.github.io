@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a64d70f-d324-4787-b70f-f35e12f40eb2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mycss/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/mycss/index.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -44,8 +42,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mycss/index.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="236">
-                  <caret line="59" column="22" lean-forward="true" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+                <state relative-caret-position="567">
+                  <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
                 </state>
               </provider>
             </entry>
@@ -142,12 +140,12 @@
       <workItem from="1555088197136" duration="106000" />
       <workItem from="1555297466700" duration="6462000" />
       <workItem from="1555333578753" duration="663000" />
-      <workItem from="1556712682873" duration="3203000" />
+      <workItem from="1556712682873" duration="4065000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10434000" />
+    <option name="totallyTimeSpent" value="11296000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
@@ -193,8 +191,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mycss/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="59" column="22" lean-forward="true" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
+        <state relative-caret-position="567">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
