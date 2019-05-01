@@ -1,29 +1,36 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.into{
+
+.into {
     background-image: url("../images/timg.jpg");
     background-size: cover;
     height: 937px;
 }
-.title{
+
+.title {
     /*border: 1px solid red;*/
-    width: 25%;
+    width: 27%;
     height: 15%;
     padding-top: 10%;
     padding-left: 15%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
-p{
+
+p {
     font-size: 40px;
-    color:darkgreen;
+    color: darkgreen;
 }
-.but{
+
+.but {
     width: 6%;
     height: 3%;
-    margin-top: 8%;
-    margin-left: 21%;
-    background-color: red;
+    margin-top: 1%;
+    margin-left: 25%;
+    background-color: #b7c2c4;
     color: white;
     text-align: center;
     padding-top: 5px;
@@ -31,4 +38,30 @@ p{
     border: 1px solid green;
     cursor: pointer;
     border-radius: 3px;
+}
+
+.nav {
+    width: 30%;
+    /*border: 1px solid blue;*/
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.nav > ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.nav > ul > li {
+    list-style: none;
+    color: darkgreen;
+    margin-left: 3%;
+    font-weight: bold;
+}
+
+.nav > ul > li:hover {
+    color: white;
+    cursor: pointer;
+    text-decoration: underline
 }
