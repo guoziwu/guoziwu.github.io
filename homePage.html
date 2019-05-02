@@ -2,8 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/x-component"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>吴晓华的个人基地</title>
     <link rel="stylesheet" href="mycss/homePage.css">
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="Swiper-3.4.2/dist/css/swiper.min.css">
+    <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="js/jquery.SuperSlide2.1.2.js"></script>
+    <style>
+        .swiper-container {
+            width: 100%;
+            height: 700px;
+        }
+    </style>
 </head>
 <body>
 <header>
@@ -23,17 +35,178 @@
         <div class="navList">
             <ul>
                 <li>主页</li>
-                <li>个人简历</li>
+                <li>个人历程</li>
                 <li>我的博客</li>
                 <li>技术专栏</li>
                 <li>联系方式</li>
             </ul>
         </div>
     </div>
-
 </header>
 <section>
-
+    <div class="space"></div>
 </section>
+<section>
+    <div>
+        <div class="about_content history">
+            <h2>个人历程</h2>
+            <p class="about_txt">看星星的孩纸，只能向前奔跑</p>
+        </div>
+        <div class="event_box">
+            <div class="space_div">
+                <p class="left_space"></p>
+                <p class="right_space"></p>
+            </div>
+            <div class="parHd clearfix">
+                <ul>
+                    <li>2014.06.31</li>
+                    <li>2016.05.02</li>
+                    <li>2016.06.03</li>
+                    <li>2016.09.04</li>
+                    <li>2016.11.05</li>
+                    <li>2016.12.06</li>
+                    <li>2017.01.07</li>
+                    <li>2017.02.08</li>
+                </ul>
+                <a class="sPrev"><img src="images/left_ico.png" alt="" title=""></a>
+                <a class="sNext"><img src="images/right_ico.png" alt="" title=""></a>
+            </div>
+            <div class="parBd clearfix">
+                <div class="slideBox">
+                    <h4>【1】毕业啦~~开阔新天地</h4>
+                    <p>学习生涯结束，一段新的旅程开始，有些惶恐，但更多的是期待...</p>
+                </div>
+                <div class="slideBox" style="display: none;">
+                    <h4>【2】启动星店计划第一季</h4>
+                    <p>启动星店计划第一季</p>
+                </div>
+                <div class="slideBox" style="display: none;">
+                    <h4>【3】星店2.0产品发布会</h4>
+                    <p>星店2.0产品发布会</p>
+                </div>
+                <div class="slideBox" style="display: none;">
+                    <h4>【4】创“星”体验2016星店星评启动仪式</h4>
+                    <p>创“星”体验2016星店星评启动仪式。</p>
+                </div>
+                <div class="slideBox" style="display: none;">
+                    <h4>【5】跨阅 解读从单店到连锁的商业趋势</h4>
+                    <p>跨阅 解读从单店到连锁的商业趋势</p>
+                </div>
+                <div class="slideBox" style="display: none;">
+                    <h4>【6】咖啡街区发布会，助力打造精品咖啡馆</h4>
+                    <p>咖啡街区发布会，助力打造精品咖啡馆</p>
+                </div>
+                <div class="slideBox" style="display: none;">
+                    <h4>【7】美团点评好店长生而不凡</h4>
+                    <p>美团点评好店长生而不凡</p>
+                </div>
+                <div class="slideBox" style="display: none;">
+                    <h4>【8】第一季星店计划授星仪式</h4>
+                    <p>第一季星店计划授星仪式</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--轮播-->
+
+<section>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/banner3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/banner2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/banner1.jpg" alt=""></div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+
+        <!-- 如果需要导航按钮 -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- 如果需要滚动条 -->
+        <div class="swiper-scrollbar"></div>
+    </div>
+</section>
+
+<section>
+    <div class="myBlog">
+        <div class="blogTitle">
+            <h2>我的博客</h2>
+        </div>
+        <div class="blogText">
+            <div class="blogImg">
+                <img src="images/blog-1.jpg" alt="">
+            </div>
+            <div class="blogImg">
+                <img src="images/blog-2.jpg" alt="">
+            </div>
+            <div class="blogImg">
+                <img src="images/blog-3.jpg" alt="">
+            </div>
+            <div class="blogImg">
+                <img src="images/blog-4.jpg" alt="">
+            </div>
+            <div class="blogImg">
+                <img src="images/blog-5.jpg" alt="">
+            </div>
+            <div class="blogImg">
+                <img src="images/blog-6.jpg" alt="">
+            </div>
+            <div class="blogImg">
+                <img src="images/blog-7.jpg" alt="">
+            </div>
+            <div class="blogImg">
+                <img src="images/blog-8.jpg" alt="">
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+<!--<script src="jquery-3.3.1.js"></script>-->
+<script src="Swiper-3.4.2/dist/js/swiper.min.js"></script>
+<script>
+    $(function () {
+        jQuery(".event_box").slide({
+            titCell: ".parHd li",
+            mainCell: ".parBd",
+            defaultPlay: false,
+            titOnClassName: "act",
+            prevCell: ".sPrev",
+            nextCell: ".sNext",
+            pnLoop: false
+        });
+        jQuery(".parHd").slide({
+            mainCell: " ul",
+            vis: 6,
+            effect: "left",
+            defaultPlay: false,
+            prevCell: ".sPrev",
+            nextCell: ".sNext",
+            pnLoop: false,
+            autoPage: true
+        })
+    });
+</script>
+
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        direction: 'vertical',
+        loop: true,
+
+        // 如果需要分页器
+        pagination: '.swiper-pagination',
+
+        // 如果需要前进后退按钮
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+
+        // 如果需要滚动条
+        scrollbar: '.swiper-scrollbar',
+    })
+</script>
 </body>
 </html>
