@@ -65,3 +65,10 @@ p {
     cursor: pointer;
     text-decoration: underline
 }
+a:link,a:visited{
+    color:darkgreen;
+    text-decoration:none;
+}
+a:hover{
+    color:white;
+}
