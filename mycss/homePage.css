@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.myHeader {
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    height: 936px;
+    position: relative;
+}
+
+header {
+    position: relative;
+}
+
+.mask {
+    width: 100%;
+    height: 936px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.2;
+
+}
+
+.myNav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.myLogo {
+    width: 20%;
+    height: 60px;
+    margin-left: 15%;
+    padding-top: 1%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.myLogo > h3 {
+    margin-left: 3%;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    transition: all .3s linear;
+}
+
+h3:hover {
+    color: yellowgreen;
+    transition: all .3s linear;
+}
+
+.navList {
+    width: 30%;
+    height: 60px;
+    margin-left: 20%;
+    margin-top: 1%;
+}
+
+.navList > ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.navList > ul > li {
+    list-style: none;
+    color: white;
+    margin-left: 4%;
+    transition: all .3s linear;
+}
+
+.navList > ul > li:hover {
+    cursor: pointer;
+    color: #ED7511;
+    transition: all .3s linear;
+}
+
+.titleName {
+    width: 25%;
+    height: 250px;
+    /*border: 1px solid white;*/
+    position: absolute;
+    margin: auto auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.titleName>h2{
+    width: 350px;
+    font-size: 40px;
+    margin: 0 auto;
+    color: white;
+    letter-spacing: 3px;
+    /*border: 1px solid white;*/
+
+}
+.titleName>h4{
+    width:150px;
+    /*border: 1px solid white;*/
+    font-size: 20px;
+    margin: 4% auto;
+    color: white;
+    letter-spacing: 5px;
+}
+.butLook{
+    width: 150px;
+    height: 50px;
+    background-color: #fdd136;
+    color: white;
+    font-weight: bold;
+    border-radius: 3%;
+    margin:8% auto;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 2px;
+}
+.butLook:hover{
+    cursor: pointer;
+}
