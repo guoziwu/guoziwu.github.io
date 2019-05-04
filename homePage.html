@@ -5,6 +5,7 @@
     <meta http-equiv="Content-Type" content="text/x-component"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>吴晓华的个人基地</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="mycss/homePage.css">
     <link rel="stylesheet" href="css/index.css"/>
     <link rel="stylesheet" href="Swiper-3.4.2/dist/css/swiper.min.css">
@@ -35,11 +36,11 @@
         </div>
         <div class="navList">
             <ul>
-                <li>主页</li>
-                <li>个人历程</li>
-                <li>我的博客</li>
-                <li>技术专栏</li>
-                <li>联系方式</li>
+                <li class="index">主页</li>
+                <li onclick="course()">个人历程</li>
+                <li onclick="myBlogs()">我的博客</li>
+                <li onclick="myTechnology()">技术专栏</li>
+                <li onclick="relation()">联系方式</li>
             </ul>
         </div>
     </div>
@@ -137,30 +138,36 @@
             <h2>我的博客</h2>
         </div>
         <div class="blogText">
-            <div class="blogImg">
-                <img src="images/blog-1.jpg" alt="">
+            <div class="blogText_one">
+                <div class="blogImg">
+                    <img src="images/blog-1.jpg" alt="">
+                </div>
+                <div class="blogImg">
+                    <img src="images/blog-2.jpg" alt="">
+                </div>
+                <div class="blogImg">
+                    <img src="images/blog-3.jpg" alt="">
+                </div>
+                <div class="blogImg">
+                    <img src="images/blog-4.jpg" alt="">
+                </div>
             </div>
-            <div class="blogImg">
-                <img src="images/blog-2.jpg" alt="">
+
+            <div class="blogText_two">
+                <div class="blogImg">
+                    <img src="images/blog-5.jpg" alt="">
+                </div>
+                <div class="blogImg">
+                    <img src="images/blog-6.jpg" alt="">
+                </div>
+                <div class="blogImg">
+                    <img src="images/blog-7.jpg" alt="">
+                </div>
+                <div class="blogImg">
+                    <img src="images/blog-8.jpg" alt="">
+                </div>
             </div>
-            <div class="blogImg">
-                <img src="images/blog-3.jpg" alt="">
-            </div>
-            <div class="blogImg">
-                <img src="images/blog-4.jpg" alt="">
-            </div>
-            <div class="blogImg">
-                <img src="images/blog-5.jpg" alt="">
-            </div>
-            <div class="blogImg">
-                <img src="images/blog-6.jpg" alt="">
-            </div>
-            <div class="blogImg">
-                <img src="images/blog-7.jpg" alt="">
-            </div>
-            <div class="blogImg">
-                <img src="images/blog-8.jpg" alt="">
-            </div>
+
         </div>
     </div>
 </section>
@@ -170,11 +177,67 @@
         <div class="techniqueTitle">
             <h2>技术专栏</h2>
             <div class="techniqueText">
-
             </div>
         </div>
     </div>
 </section>
+<!--和我联系吧-->
+<section>
+    <div class="resume">
+        <div class="personalTitle">
+            <h2>看看我吧</h2>
+        </div>
+        <div class="personalText">
+            <div class="personalData">
+                <div class="personalPhoto">
+                    <img src="images/ww.png" alt="">
+                </div>
+                <p>有朋自远方来，不亦乐乎？如果对我感兴趣的话请和我联系吧，相信我们会成为好朋友哦！</p>
+                <div class="personalName">
+                    <div><i class="fa fa-user"></i>&nbsp;昵称：晓华</div>
+                    <div><i class="fa fa-map-marker"></i>&nbsp;地址：成都市锦江区</div>
+                    <div><i class="fa fa-phone"></i>&nbsp;电话：173400669**</div>
+                    <div><i class="fa fa-envelope"></i>&nbsp;邮箱：3141240971@qq.com</div>
+                </div>
+                <div class="fontIcon">
+                    <div id="qqFa" onmouseover="qq()" onmouseleave="qqLeave()"><i class="fa fa-qq"></i></div>
+                    <div id="wxFa" onmouseover="wx()" onmouseleave="wxLeave()"><i class="fa fa-weixin"></i></div>
+                    <div id="wbFa" onmouseover="wb()" onmouseleave="wbLeave()"><i class="fa fa-weibo"></i></div>
+                    <div id="gitFa" onmouseover="git()" onmouseleave="gitLeave()"><i class="fa fa-git"></i></div>
+                    <div id="ykFa" onmouseover="yk()" onmouseleave="ykLeave()"><i class="fa fa-youtube-play"></i></div>
+                </div>
+                <div class="twoCode">
+                    <img src="images/qq1.png" alt="" id="qqCode">
+                    <img src="images/wx.png" alt="" id="wxCode">
+                    <img src="images/wx.png" alt="" id="wbCode">
+                    <img src="images/wx.png" alt="" id="gitCode">
+                    <img src="images/wx.png" alt="" id="ykCode">
+                </div>
+            </div>
+            <div class="personalSkills">
+                <div class="personalHobby">
+                    <h5>爱好</h5>
+                    <p><i class="fa fa-caret-right"></i>喜欢看书，写字，听歌</p>
+                    <p><i class="fa fa-caret-right"></i>打乒乓球，羽毛球，骑行</p>
+                    <p><i class="fa fa-caret-right"></i>喜欢旅游，领略祖国大好河山。</p>
+                </div>
+                <div class="personalSki">
+                    <h5>技能</h5>
+                    <p><i class="fa fa-caret-right"></i>熟悉 HTML+CSS+JS+AJAX 实现页面呈现，数据交互</p>
+                    <p><i class="fa fa-caret-right"></i>熟悉 jQuery，bootstrap，能够进行响应式布局的页面开发</p>
+                    <p><i class="fa fa-caret-right"></i>熟悉 Nodejs 工作原理，以及常用的框架 express，实现基本的后台架构体系</p>
+                    <p><i class="fa fa-caret-right"></i>了解关系型数据库 MySQL 标准语法，能够使用 sql 语法对数据库基本的操作；</p>
+                    <p><i class="fa fa-caret-right"></i>了解微信小程序开发工具，uni-app，vue</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="footer">
+        <p>Copyright © 2017.guozhiwu All rights reserved.</p>
+    </div>
+</footer>
 <!--<script src="jquery-3.3.1.js"></script>-->
 <script src="Swiper-3.4.2/dist/js/swiper.min.js"></script>
 <script>
@@ -216,6 +279,114 @@
         // 如果需要滚动条
         scrollbar: '.swiper-scrollbar',
     })
+</script>
+
+<script>
+    $(".index").click(function () {
+        self.location = ("index.html");
+    });
+
+    function course() {
+        var t = document.documentElement.scrollTop || document.body.scrollTop;
+        if (t < 900) {
+            window.requestAnimationFrame(course);
+            window.scrollTo(1000, t + 20);
+        }
+    }
+
+    function myBlogs() {
+        var t = document.documentElement.scrollTop || document.body.scrollTop;
+        if (t < 2300) {
+            window.requestAnimationFrame(myBlogs);
+            window.scrollTo(1000, t + 50);
+        }
+    }
+
+    function myTechnology() {
+        var t = document.documentElement.scrollTop || document.body.scrollTop;
+        if (t < 2800) {
+            window.requestAnimationFrame(myTechnology);
+            window.scrollTo(1000, t + 60);
+        }
+    }
+
+    function relation() {
+        var t = document.documentElement.scrollTop || document.body.scrollTop;
+        if (t < 3200) {
+            window.requestAnimationFrame(relation);
+            window.scrollTo(1000, t + 70);
+        }
+    }
+
+    function qq() {
+        var qq = document.getElementById("qqCode");
+        if (qq.style.visibility == "hidden") {
+            qq.style.visibility = "visible";
+        } else {
+            qq.style.visibility = "hidden"
+        }
+    }
+
+    function qqLeave() {
+        var qqLea = document.getElementById("qqCode");
+        qqLea.style.visibility = "hidden";
+    }
+
+    function wx() {
+        var wx = document.getElementById("wxCode");
+        if (wx.style.visibility == "hidden") {
+            wx.style.visibility = "visible";
+        } else {
+            wx.style.visibility = "hidden"
+        }
+    }
+
+    function wxLeave() {
+        var wxLea = document.getElementById("wxCode");
+        wxLea.style.visibility = "hidden";
+    }
+
+    function wb() {
+        var wb = document.getElementById("wbCode");
+        if (wb.style.visibility == "hidden") {
+            wb.style.visibility = "visible";
+        } else {
+            wb.style.visibility = "hidden"
+        }
+    }
+
+    function wbLeave() {
+        var wbLea = document.getElementById("wbCode");
+        wbLea.style.visibility = "hidden";
+    }
+
+    function git() {
+        var git = document.getElementById("gitCode");
+        if (git.style.visibility == "hidden") {
+            git.style.visibility = "visible";
+        } else {
+            git.style.visibility = "hidden"
+        }
+    }
+
+    function gitLeave() {
+        var gitLea = document.getElementById("gitCode");
+        gitLea.style.visibility = "hidden";
+    }
+
+    function yk() {
+        var yk = document.getElementById("ykCode");
+        if (yk.style.visibility == "hidden") {
+            yk.style.visibility = "visible";
+        } else {
+            yk.style.visibility = "hidden"
+        }
+    }
+
+    function ykLeave() {
+        var ykLea = document.getElementById("ykCode");
+        ykLea.style.visibility = "hidden";
+    }
 </script>
 </body>
 </html>
