@@ -204,9 +204,33 @@ h3:hover {
 }
 
 .techniqueText {
-
+     width:50%;
+     height: 380px;
+     margin: 10px auto;
+ }
+.techniqueText>h5 {
+    margin-top: 20px;
+    /*text-align: left;*/
+    font-size:25px;
 }
-
+.techniqueText>h5:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.techniqueText>p {
+    /*text-align: left;*/
+    font-size:15px;
+    color: gray;
+}
+.more{
+    width: 7%;
+    margin: 30px auto;
+    font-size: 15px;
+    color: red;
+}
+.more:hover{
+   cursor: pointer;
+}
 /*基本简历*/
 .resume {
     width: 100%;

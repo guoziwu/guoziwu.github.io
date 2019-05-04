@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a64d70f-d324-4787-b70f-f35e12f40eb2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/qq1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ww.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/wx.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/homePage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mycss/homePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/mycss/homePage.css" afterDir="false" />
     </list>
@@ -19,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5539258">
+    <splitter split-orientation="horizontal" split-proportion="0.5677308">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -43,9 +39,10 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/homePage.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="249">
-                  <caret line="201" column="36" selection-start-line="201" selection-start-column="28" selection-end-line="201" selection-end-column="36" />
+                <state relative-caret-position="-115">
+                  <caret line="178" column="37" selection-start-line="178" selection-start-column="24" selection-end-line="178" selection-end-column="37" />
                   <folding>
+                    <element signature="n#style#0;n#div#1;n#div#2;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="e#6268#6274#0" expanded="true" />
                     <element signature="e#6343#6349#0" expanded="true" />
                     <element signature="e#6417#6423#0" expanded="true" />
@@ -74,8 +71,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mycss/homePage.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="338">
-                  <caret line="289" column="22" selection-start-line="289" selection-start-column="22" selection-end-line="289" selection-end-column="22" />
+                <state relative-caret-position="203">
+                  <caret line="225" column="12" selection-start-line="225" selection-start-column="12" selection-end-line="225" selection-end-column="12" />
                 </state>
               </provider>
             </entry>
@@ -91,6 +88,11 @@
         <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fontIcon</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -112,7 +114,7 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-494" />
     <option name="y" value="60" />
     <option name="width" value="1763" />
@@ -220,16 +222,15 @@
       <workItem from="1556756158673" duration="5939000" />
       <workItem from="1556774288512" duration="12654000" />
       <workItem from="1556844819024" duration="3970000" />
-      <workItem from="1556931720166" duration="19661000" />
+      <workItem from="1556931720166" duration="26215000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60508000" />
+    <option name="totallyTimeSpent" value="67062000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1376488" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -313,9 +314,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/homePage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="201" column="36" selection-start-line="201" selection-start-column="28" selection-end-line="201" selection-end-column="36" />
+        <state relative-caret-position="-115">
+          <caret line="178" column="37" selection-start-line="178" selection-start-column="24" selection-end-line="178" selection-end-column="37" />
           <folding>
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#6268#6274#0" expanded="true" />
             <element signature="e#6343#6349#0" expanded="true" />
             <element signature="e#6417#6423#0" expanded="true" />
@@ -326,8 +328,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mycss/homePage.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="289" column="22" selection-start-line="289" selection-start-column="22" selection-end-line="289" selection-end-column="22" />
+        <state relative-caret-position="203">
+          <caret line="225" column="12" selection-start-line="225" selection-start-column="12" selection-end-line="225" selection-end-column="12" />
         </state>
       </provider>
     </entry>
