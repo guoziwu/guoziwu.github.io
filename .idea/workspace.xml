@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a64d70f-d324-4787-b70f-f35e12f40eb2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/homePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/homePage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mycss/homePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/mycss/homePage.css" afterDir="false" />
-    </list>
+    <list default="true" id="6a64d70f-d324-4787-b70f-f35e12f40eb2" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -15,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5677308">
+    <splitter split-orientation="horizontal" split-proportion="0.7075065">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -39,8 +36,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/homePage.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="182">
-                  <caret line="163" column="36" selection-start-line="163" selection-start-column="24" selection-end-line="163" selection-end-column="36" />
+                <state relative-caret-position="155">
+                  <caret line="231" column="38" lean-forward="true" selection-start-line="231" selection-start-column="38" selection-end-line="231" selection-end-column="38" />
                   <folding>
                     <element signature="n#style#0;n#div#1;n#div#2;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
@@ -100,8 +97,8 @@
         <option value="$PROJECT_DIR$/myhtml.html" />
         <option value="$PROJECT_DIR$/mycss/index.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/homePage.html" />
         <option value="$PROJECT_DIR$/mycss/homePage.css" />
+        <option value="$PROJECT_DIR$/homePage.html" />
       </list>
     </option>
   </component>
@@ -220,18 +217,18 @@
       <workItem from="1556774288512" duration="12654000" />
       <workItem from="1556844819024" duration="3970000" />
       <workItem from="1556931720166" duration="26215000" />
-      <workItem from="1557025494326" duration="5434000" />
+      <workItem from="1557025494326" duration="5834000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72496000" />
+    <option name="totallyTimeSpent" value="72896000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="271" y="54" width="1763" height="1062" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10724638" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1376488" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -311,20 +308,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homePage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="163" column="36" selection-start-line="163" selection-start-column="24" selection-end-line="163" selection-end-column="36" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mycss/homePage.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
           <caret line="171" column="18" lean-forward="true" selection-start-line="171" selection-start-column="18" selection-end-line="171" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homePage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="231" column="38" lean-forward="true" selection-start-line="231" selection-start-column="38" selection-end-line="231" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
