@@ -139,7 +139,10 @@ h3:hover {
     width: 100%;
     height: 70px;
 }
-
+.myBlog{
+    width: 100%;
+    height: 630px;
+}
 .blogTitle {
     width: 100%;
     height: 50px;
@@ -164,7 +167,7 @@ h3:hover {
 .blogText_two {
     width: 74%;
     height: 230px;
-    margin: 50px auto;
+    margin: 50px auto 0;
     /*border: 1px solid blue;*/
     display: flex;
     flex-direction: row;
@@ -172,22 +175,68 @@ h3:hover {
 }
 
 .blogImg {
-    width: 20%;
+    width: 22%;
     height: 200px;
     margin-left: 3.6%;
     /*border: 1px solid blue;*/
+    position: relative;
+}
+
+.blogImg > div {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: grey;
+    opacity: 0;
+    transition: all .3s linear;
+}
+
+.blogImg > div > p {
+    color: white;
+    text-align: center;
+    line-height: 200px;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+.blogImg > div:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all .3s linear;
+
+}
+
+.blogImg > span {
+    position: absolute;
+    bottom: 5%;
+    right: 0;
+    left: 0;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 4px;
+    font-weight: bold;
 }
 
 .blogImg > img {
-    width: 300px;
+    width: 100%;
     height: 200px;
 }
-
+.blogMore{
+     margin: 0 auto;
+     width: 4%;
+     font-size: 15px;
+     color: red;
+     font-weight: bold;
+ }
+.blogMore:hover{
+   cursor: pointer;
+}
 .technique {
     width: 100%;
     height: 550px;
-    /*border: 1px solid red;*/
-    margin-top: -40px;
     background-image: url("../images/techni.jpg");
     background-size: cover;
 }
@@ -204,33 +253,39 @@ h3:hover {
 }
 
 .techniqueText {
-     width:50%;
-     height: 380px;
-     margin: 10px auto;
- }
-.techniqueText>h5 {
+    width: 50%;
+    height: 380px;
+    margin: 10px auto;
+}
+
+.techniqueText > h5 {
     margin-top: 20px;
     /*text-align: left;*/
-    font-size:25px;
+    font-size: 25px;
 }
-.techniqueText>h5:hover {
+
+.techniqueText > h5:hover {
     cursor: pointer;
     text-decoration: underline;
 }
-.techniqueText>p {
+
+.techniqueText > p {
     /*text-align: left;*/
-    font-size:15px;
+    font-size: 15px;
     color: gray;
 }
-.more{
+
+.more {
     width: 7%;
     margin: 30px auto;
     font-size: 15px;
     color: red;
 }
-.more:hover{
-   cursor: pointer;
+
+.more:hover {
+    cursor: pointer;
 }
+
 /*基本简历*/
 .resume {
     width: 100%;
